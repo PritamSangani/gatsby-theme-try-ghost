@@ -1,8 +1,8 @@
 {
   "private": true,
   "name": "demo",
-  "version": "1.0.0",
   "main": "index.js",
+  "version": "2.0.0",
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",
@@ -11,31 +11,33 @@
     "serve": "gatsby serve"
   },
   "dependencies": {
-    "gatsby": "^2.24.54",
-    "gatsby-plugin-ackee-tracker": "^1.4.0",
-    "gatsby-plugin-netlify": "^2.3.14",
-    "gatsby-plugin-preact": "^4.0.10",
-    "gatsby-rehype-ghost-links": "*",
-    "gatsby-rehype-inline-images": "*",
-    "gatsby-rehype-prismjs": "*",
-    "gatsby-theme-ghost-commento": "*",
-    "gatsby-theme-ghost-contact": "*",
-    "gatsby-theme-ghost-dark-mode": "*",
-    "gatsby-theme-ghost-members": "*",
-    "gatsby-theme-try-ghost": "*",
-    "gatsby-transformer-rehype": "*",
-    "preact": "^10.4.8",
-    "preact-render-to-string": "^5.1.10",
-    "prismjs": "^1.21.0",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "gatsby": "^3.0.0",
+    "gatsby-plugin-ackee-tracker": "^2.2.0",
+    "gatsby-plugin-gatsby-cloud": "^2.0.0",
+    "gatsby-plugin-netlify": "^3.0.0",
+    "gatsby-plugin-preact": "^5.0.0",
+    "gatsby-rehype-ghost-links": "^2.0.0",
+    "gatsby-rehype-inline-images": "^2.0.0",
+    "gatsby-rehype-prismjs": "^2.0.0",
+    "gatsby-theme-ghost-commento": "^2.0.0",
+    "gatsby-theme-ghost-contact": "^2.0.0",
+    "gatsby-theme-ghost-dark-mode": "^2.0.0",
+    "gatsby-theme-ghost-members": "^2.0.0",
+    "gatsby-theme-ghost-toc": "^2.0.0",
+    "gatsby-theme-try-ghost": "^2.0.0",
+    "gatsby-transformer-rehype": "^2.0.0",
+    "preact": "^10.5.12",
+    "preact-render-to-string": "^5.1.12",
+    "prismjs": "^1.23.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
-    "eslint": "^7.8.1",
-    "eslint-plugin-ghost": "^1.5.0",
-    "eslint-plugin-react": "^7.20.6",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "eslint": "^7.21.0",
+    "eslint-plugin-ghost": "^2.0.0",
+    "eslint-plugin-react": "^7.22.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
   }
 }

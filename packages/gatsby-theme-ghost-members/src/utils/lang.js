@@ -8,6 +8,8 @@ const lang = {
         SUBSCRIBE_OVERLAY: `Stay up to date! Get all the latest & greatest posts delivered straight to your inbox`,
         SUBSCRIBE_SECTION: `Get the latest posts delivered right to your inbox`,
         SUBSCRIBE_TO: `Subscribe to`,
+        SUBSCRIBED_FAILED: `Could not sign up! Invalid sign up link.`,
+        SUBSCRIBED_TO: `You've successfully subscribed to`,
         YOUR_EMAIL: `youremail@example.com`,
     },
     de: {
@@ -19,7 +21,22 @@ const lang = {
         SUBSCRIBE_OVERLAY: `Bleib auf dem Laufenden! Erhalte die neuesten Artikel direkt in dein Postfach`,
         SUBSCRIBE_SECTION: `Erhalte die neuesten Artikel direkt in dein Postfach`,
         SUBSCRIBE_TO: `Abboniere`,
+        SUBSCRIBED_FAILED: `Anmeldung gescheitert! Ungültiger Anmeldelink.`,
+        SUBSCRIBED_TO: `Du hast dich erfolgreich angemeldet bei`,
         YOUR_EMAIL: `deinemail@example.de`,
+    },
+	ru: {
+        CHECK_YOUR_INBOX: `Проверьте свой почтовый ящик и нажмите на ссылку, чтобы подтвердить подписку`,
+        EMAIL: `Email`,
+        ENTER_VALID_EMAIL: `Пожалуйста, введите действительный адрес электронной почты`,
+        GREAT: `Отлично`,
+        SUBSCRIBE: `Подписка`,
+        SUBSCRIBE_OVERLAY: `Будьте в курсе! Получайте все самые свежие и лучшие сообщения прямо на ваш почтовый ящик`,
+        SUBSCRIBE_SECTION: `Получайте самые свежие сообщения прямо на ваш почтовый ящик`,
+        SUBSCRIBE_TO: `Подписаться на`,
+        SUBSCRIBED_FAILED: `Не удалось зарегистрироваться! Неверная ссылка для регистрации.`,
+        SUBSCRIBED_TO: `Вы успешно подписались на`,
+        YOUR_EMAIL: `youremail@example.com`,
     },
 }
 

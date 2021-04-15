@@ -2,7 +2,7 @@ const ContentAPI = require(`./content-api`)
 const _ = require(`lodash`)
 const cheerio = require(`cheerio`)
 
-const PLUGIN = `jamify-source-ghost`
+const PLUGIN = `gatsby-source-try-ghost`
 
 // Simple logging
 const useLog = (reporter, verbose, severity) => (message) => {

@@ -1,7 +1,9 @@
-# Jamify Source Ghost
+# Gatsby Source Ghost
 
 Gatsby source plugin for pulling data from headless [Ghost CMS](https://ghost.org/changelog/jamstack/). This plugin uses the [Gatsby schema customization](https://www.gatsbyjs.org/docs/schema-customization/) API to provide a strictly typed content schema. Data is fetched
 via the [Ghost Content API Client](https://ghost.org/docs/api/v3/javascript/content/).
+
+*Note:* This plugin replaces [jamify-source-ghost](https://www.npmjs.com/package/jamify-source-ghost).
 
 ## Features
 
@@ -14,7 +16,7 @@ via the [Ghost Content API Client](https://ghost.org/docs/api/v3/javascript/cont
 
 ## Install
 
-`yarn add jamify-source-ghost`
+`yarn add gatsby-source-try-ghost`
 
 ## How to use
 
@@ -22,7 +24,7 @@ Plugin configuration for `gatsby-config.js`:
 
 ```
 {
-   resolve: `jamify-source-ghost`,
+   resolve: `gatsby-source-try-ghost`,
    options: {
       ghostConfig: {
         apiUrl: `https://<cms.your-ghost.com>`,
@@ -54,7 +56,7 @@ For the post and page types, a cached timestamp is used to only fetch new conten
 
 ## How to query
 
-This plugin generates five different node types: Post, Page, Author, Tag, and Settings. A full list of fields can be inspected in the [schema customizaion file](https://github.com/styxlab/gatsby-theme-try-ghost/blob/master/packages/jamify-source-ghost/create-schema-customization.js).
+This plugin generates five different node types: Post, Page, Author, Tag, and Settings. A full list of fields can be inspected in the [schema customizaion file](https://github.com/styxlab/gatsby-theme-try-ghost/blob/master/packages/gatsby-source-try-ghost/create-schema-customization.js).
 
 **Example Post Query**
 

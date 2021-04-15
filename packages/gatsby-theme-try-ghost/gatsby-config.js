@@ -49,7 +49,7 @@ module.exports = (themeOptions) => {
                 },
             },
             {
-                resolve: `jamify-source-ghost`,
+                resolve: `gatsby-source-try-ghost`,
                 options: {
                     ghostConfig: process.env.NODE_ENV === `development`
                         ? ghostConfig.development
@@ -221,7 +221,7 @@ module.exports = (themeOptions) => {
                         require(`postcss-custom-properties`)({
                             preserve: false,
                         }),
-                        require(`postcss-color-function`)(),
+                        require(`postcss-color-mod-function`)(),
                         require(`autoprefixer`)(),
                         require(`cssnano`)(),
                     ],

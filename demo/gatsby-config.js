@@ -101,12 +101,12 @@ module.exports = {
                 ],
             },
         },
-        {
-            resolve: `gatsby-theme-ghost-toc`,
-            options: {
-                maxDepth: 3,
-            },
-        },
+        //{
+        //    resolve: `gatsby-theme-ghost-toc`,
+        //    options: {
+        //        maxDepth: 3,
+        //    },
+        //},
         {
             resolve: `gatsby-theme-ghost-contact`,
             options: {
@@ -141,6 +141,9 @@ module.exports = {
                 // If enabled it will collect info on OS, BrowserInfo, Device  & ScreenSize
                 detailed: true,
             },
+        },
+        {
+            resolve: `gatsby-plugin-gatsby-cloud`,
         },
         // this (optional) plugin enables Progressive Web App + Offline functionality
         // This plugin is currently causing issues: https://github.com/gatsbyjs/gatsby/issues/25360
